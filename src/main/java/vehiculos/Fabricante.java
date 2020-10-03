@@ -21,15 +21,15 @@ public class Fabricante {
 		this.nombre = nombre;
 	}
 	
-	public String getPais() {
+	public Pais getPais() {
 		return pais;
 	}
 	
-	public void setPais(String pais) {
+	public void setPais(Pais pais) {
 		this.pais = pais;
 	}
 	
-	public void getNumVehiculos() {
+	public int getNumVehiculos() {
 		return numVehiculos;
 	}
 	public void addVehiculo() {
