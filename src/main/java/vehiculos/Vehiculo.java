@@ -1,7 +1,7 @@
 package vehiculos;
 
-import java.util.*;
-import java.lang.*;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class Vehiculo {
 	
