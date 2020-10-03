@@ -20,7 +20,11 @@ public class Pais {
 	}
 	
 	public void addVehiculo() {
-		numVehiculos = numVehiculos + 1;
+		numVehiculos ++;
+	}
+	
+	public int getNumVehiculos() {
+		return numVehiculos;
 	}
 	
     public static Pais paisMasVendedor(){

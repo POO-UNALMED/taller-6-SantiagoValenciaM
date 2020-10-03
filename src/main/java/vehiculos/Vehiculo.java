@@ -38,12 +38,15 @@ public class Vehiculo {
 	public String getPlaca() {
 		return placa;
 	}
+	
 	public void setPlaca(String placa) {
 		this.placa = placa;
 	}
+	
 	public int getPuertas() {
 		return puertas;
 	}
+	
 	public void setPuertas(int puertas) {
 		this.puertas=puertas;
 	}

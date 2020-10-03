@@ -33,7 +33,8 @@ public class Fabricante {
 		return numVehiculos;
 	}
 	public void addVehiculo() {
-		numVehiculos = numVehiculos+1;
+		numVehiculos ++;
+		this.pais.addVehiculo();
 	}
 	
 	public static Fabricante fabricaMayorVentas() {
