@@ -110,4 +110,6 @@ public class Vehiculo {
     public static String vehiculosPorTipo(){
         return "Automoviles: " + Automovil.getCantidadAutos() + "\n" + "Camionetas: " + Camioneta.getCantidadCamionetas() + "\n" + "Camiones: " + Camion.getCantidadCamiones();
     }
+    
 }
+
